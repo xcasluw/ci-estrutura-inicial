@@ -25,19 +25,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach($games as $game) : ?>
-					<tr>
-						<td><?= $game["id"] ?></td>
-						<td><?= $game["name"] ?></td>
-						<td><?= reais($game["price"]) ?></td>
-						<td><?= $game["category"] ?></td>
-						<td><?= $game["developer"] ?></td>
-						<td>
-							<a href="" class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i></a>
-							<a href="" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></a>
-						</td>
-					</tr>
-				<?php endforeach; ?>
+				
 			</tbody>
 		</table>
 	</div>
