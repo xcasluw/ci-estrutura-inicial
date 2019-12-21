@@ -36,7 +36,7 @@
     <link href="https://getbootstrap.com/docs/4.4/examples/sign-in/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <form class="form-signin" method="post" action="<?= base_url() ?>login/store">
+    <form class="form-signin" method="post" action="">
   <img class="mb-4" src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
   <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
   <label for="inputEmail" class="sr-only">Email address</label>
@@ -49,7 +49,7 @@
     </label>
   </div>
 	<p>
-		<a href="<?= base_url() ?>signup">Don't Have an Account?</a>
+		<a href="">Don't Have an Account?</a>
 	</p>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
   <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>

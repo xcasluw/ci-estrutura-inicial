@@ -14,45 +14,45 @@
       </div>
 
 			<div class="col-md-12">
-				<form action="<?= base_url() ?>users/update/<?= $game["id"] ?>" method="post">
+				<form action="" method="post">
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="name">Name</label>
-							<input type="text" class="form-control" name="name" id="name" placeholder="Name" value="<?= $game["name"] ?>">
+							<input type="text" class="form-control" name="name" id="name" placeholder="Name" value="">
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="description">Description</label>
-							<textarea name="description" id="description" rows="5" class="form-control"><?= $game["description"] ?></textarea>
+							<textarea name="description" id="description" rows="5" class="form-control"></textarea>
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="category">Category</label>
-							<input type="text" class="form-control" name="category" id="category" placeholder="Category" value="<?= $game["category"] ?>">
+							<input type="text" class="form-control" name="category" id="category" placeholder="Category" value="">
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="price">Price</label>
-							<input type="text" class="form-control" name="price" id="price" placeholder="Price" value="<?= $game["price"] ?>">
+							<input type="text" class="form-control" name="price" id="price" placeholder="Price" value="">
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="developer">Developer</label>
-							<input type="text" class="form-control" name="developer" id="developer" placeholder="Developer" value="<?= $game["developer"] ?>">
+							<input type="text" class="form-control" name="developer" id="developer" placeholder="Developer" value="">
 						</div>
 					</div>
 
 					<div class="col-md-6">
 							<button type="submit" class="btn btn-success btn-xs"><i class="fas fa-check"></i> Save</button>
-							<a href="<?= base_url() ?>dashboard" class="btn btn-danger btn-xs"><i class="fas fa-times"></i> Cancel</a>
+							<a href="" class="btn btn-danger btn-xs"><i class="fas fa-times"></i> Cancel</a>
 						</div>
 					</div>
 				</form>
